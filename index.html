@@ -546,7 +546,7 @@ function logout(){ localStorage.removeItem('user'); renderProfile(); }
 /*************************
  * Admin (login + manage orders + attach files)
  *************************/
-const ADMIN={logged:false,user:'HuperKillon',pass:'Lop123lop'};
+const ADMIN={logged:false,user:'Magic',pass:'Lop123lop'};
 function renderAdmin(){
   $('#adminAuth').innerHTML = ADMIN.logged ? `<span class='pill'>Вход: admin</span> <button class='btn warn' onclick='adminLogout()'>Выйти</button>` : `
     <input id='admUser' class='input' placeholder='Логин' style='max-width:140px'>
